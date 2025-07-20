@@ -16,6 +16,7 @@ from app.models.user import Base, User
 from .db.session import engine, get_db
 from .models import user as user_model
 from .schemas import user as user_schema, auth as auth_schema
+from .schemas.user import UserRole
 
 # JWT Configuration
 SECRET_KEY = "your-secret-key-change-this-in-production"
